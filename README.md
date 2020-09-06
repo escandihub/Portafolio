@@ -17,3 +17,9 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+
+### Tecnologies that i used
+
+Basicly i used Vue.js cuz it's really cool 
