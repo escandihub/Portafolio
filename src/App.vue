@@ -1,21 +1,32 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+    <div class="container-sm">
+     <Navigator />
+    </div>     
+    <router-view />
   </div>
 </template>
-
+<script>
+import Content from "@/components/Content"
+import Navigator from "@/components/Navigator"
+import AboutMe from "@/views/AboutMe"
+export default {
+   components: {
+     Content,
+      Navigator,
+      AboutMe
+   }
+}
+</script>
 <style>
-#app {
+/* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
+} */
 
 #nav {
   padding: 30px;
