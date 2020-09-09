@@ -21,7 +21,7 @@
           <!--//media-body-->
           <img
             class="profile-image mb-3 mb-lg-0 ml-lg-5 mr-md-0"
-            src="../assets/me.jpg"
+            src="../assets/svs/undraw_feeling_proud_qne1.svg"
             alt="perfil"
             width="40%;"
           />
@@ -41,7 +41,7 @@ export default {
         me: "Alejandro Escandón",
         puesto: "Junior Developer",
         bio:
-          "Soy un ingeniero en sistemas computacionales apacionado por la programacion del lado del servidor, internet de las cosas, realizar busquedas por internet y sobretodo guapo",
+          "Soy un ingeniero en sistemas computacionales apacionado por el desarrollo de software, internet de las cosas, disfruto contruyendo todo, desde pequeños sitios hasta aplicaciones web interactivas.",
       },
     };
   },

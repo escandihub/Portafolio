@@ -2,13 +2,7 @@
   <section class="overview-section p-3 p-lg-5">
     <div class="container">
       <h2 class="section-title font-weight-bold mb-3">Lo que hago</h2>
-      <div class="section-intro mb-5">
-        Recientemente he desarrollado un sistema para mejorar el proceso de
-        administracion en la capacitacion profecional docente en el
-        <a class="link-on-bg" href="https://www.tuxtla.tecnm.mx/">
-          Instituto Tecnologico de Tuxtla Gutierrez </a
-        >, asi como tambien involucrambe en el desarrollo del backend
-        aprendiendo nuevas tecnicas para el mejor rendimeinto.
+      <div class="section-intro mb-5" v-html="persona.done">
       </div>
       <!--//row-->
       <!-- Componente de las habilidades que tengo -->
@@ -37,24 +31,35 @@ export default {
     return {
       persona: {
         done:
-          "Recientemente he desarrollado un sistema para mejorar el proceso de administracion en la capacitacion docente en el <a class='link-on-bg' href='https://www.tuxtla.tecnm.mx/'> Instituto Tecnologico de Tuxtla Gutierrez </a>, asi como tambien involucrambe en el desarrollo del backend aprendiendo nuevas tecnicas para el mejor rendimeinto",
+          "<p>Recientemente he desarrollado un sistema para mejorar el proceso de administracion en la capacitacion docente en el <a class='link-on-bg' href='https://www.tuxtla.tecnm.mx/'> Instituto Tecnologico de Tuxtla Gutierrez</a>, me he especialzado en la contruccion de aplicaciones interactivas de una sola pagina (SAP) y tambien aplicaciones progresivas.</p>",
       },
       tecnologias: [
         {
           nombre: "Laravel 5.8",
-          desc: "He desarrollado una aplicancion de alto impacto con esta tecnologia usando herramientas como Passport, Middleware, Resource, ORM, Web Push Notification y envio de E-mails.",
-          icon: "larav.svg",
+          desc: "He desarrollado una aplicacion de alto impacto con esta tecnologia usando herramientas como Passport, Middleware, Resource, ORM, Web Push Notification y envio de E-mails.",
+          icon: ["larav.svg"],
         },
         {
           nombre: "Vue.js 2",
           desc: "Como tecnologia para la contruccion de WebSite single Page Application, super flexibe y alta capacidad de crecimeinto.",
-          icon: "vuejs2.svg",
+          icon: ["vuejs2.svg"],
         },
         {
           nombre: "Node.js",
           desc: "Desarrollo de aplicaciones par diverción",
-          icon: "node-js2.svg",
+          icon: ["node-js2.svg"]
+				},
+				{
+          nombre: "Html &CSS ",
+          desc: "Stack que domino para la contruccion de los cliente a desarrollar",
+          icon: ["html5.svg", "css3.svg"]
+				},
+        {
+          nombre: "python",
+          desc: "He desarrollo principalmente bot's para automatizar con la herramienta de selenium",
+          icon: ["python.svg"]
         },
+				
       ],
     };
   },
