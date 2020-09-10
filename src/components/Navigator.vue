@@ -46,7 +46,7 @@ export default {
   data: () => {
     return {
       about2: '¡Hola!, Mi nombre es Alejandro Escandon y soy un Desarrollador Web senior, resien egresado con grandes habilidades en el desarrollo de software',
-      about: '¡Hola!, Mi nombre es Alejandro Escandon recien egresado de Ingenieria en Sistemas Computacionales, con mucho entuciasmo del aprendizaje, innovar es mi pasión.'
+      about: '¡Hola!, Mi nombre es Alejandro Escandon recien egresado de Ingenieria en Sistemas Computacionales, con mucho entusiasmo del aprendizaje, innovar es mi pasión.'
     }
   },
   methods: {
