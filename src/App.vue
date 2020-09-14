@@ -1,9 +1,10 @@
 <template>
   <div id="app">
+    <PageLoading />
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
-    <div class="container-sm">
+    <!-- <div class="container-sm"> -->
       <Navigator />
-    </div>
+    <!-- </div> -->
     <transition name="slide-fade">
       <router-view />
     </transition>
@@ -13,18 +14,19 @@
 import Content from "@/components/Content";
 import Navigator from "@/components/Navigator";
 import AboutMe from "@/views/AboutMe";
+import PageLoading from "@/components/PageLoading";
 export default {
   components: {
     Content,
     Navigator,
     AboutMe,
+    PageLoading,
   },
 };
 </script>
-<style>
-
+<style scoped>
 .slide-fade-enter-active {
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 .slide-fade-enter, .slide-fade-leave-to
 /* .slide-fade-leave-active below version 2.1.8 */ {

@@ -59,7 +59,7 @@ export default {
         "Mi filosofia principal en el desarrollo es encontrar la manera eficiente de solucionar un problema, disernir de los metodos que exiten para dar alternativas a un problema para poder elegir el que sea eficiente.",
       experiencies: [
         {
-          id: 4,
+          id: 7,
           proyecto: "Basic Push-Notification",
           desc:
             "Para conocer de cerca la interacción de los Services Worker, contruí una pequeña aplicacion para conocer su funcionamiento.",
