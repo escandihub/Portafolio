@@ -1,5 +1,5 @@
 <template>
-  <div id="loading-wrapper" v-if="isloaded">
+  <div id="loading-wrapper" v-if="!isloaded">
     <div id="loading-text">Cargardo</div>
     <div id="loading-content"></div>
   </div>
@@ -9,30 +9,29 @@
 export default {
   data: () => {
     return {
-      isloaded: true,
+      isloaded: false,
     };
   },
   mounted() {
     document.onreadystatechange = () => {
       if (document.readyState == "complete") {
-        this.isloaded = false;
+        this.isloaded = true;
       }
     };
   },
 };
 </script>
 
-<style scoped> 
-body {
-  background-color: #222;
-}
+<style scoped>
 
 #loading-wrapper {
   position: fixed;
-  width: 100%;
-  height: 100%;
   left: 0;
   top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #c8e6c9;
+  z-index: 999;
 }
 
 #loading-text {
@@ -57,7 +56,7 @@ body {
   width: 170px;
   height: 170px;
   margin: -85px 0 0 -85px;
-  border: 3px solid #f00;
+  border: 3px solid rgb(98, 184, 156);
 }
 
 #loading-content:after {
@@ -73,7 +72,7 @@ body {
 #loading-content:before {
   content: "";
   position: absolute;
-  border: 3px solid #00f;
+  border: 3px solid rgb(22, 201, 129);
   left: 5px;
   right: 5px;
   top: 5px;
@@ -82,8 +81,8 @@ body {
 
 #loading-content {
   border: 3px solid transparent;
-  border-top-color: #4d658d;
-  border-bottom-color: #4d658d;
+  border-top-color: #40e867;
+  border-bottom-color: #109969;
   border-radius: 50%;
   -webkit-animation: loader 2s linear infinite;
   -moz-animation: loader 2s linear infinite;
@@ -93,8 +92,8 @@ body {
 
 #loading-content:before {
   border: 3px solid transparent;
-  border-top-color: #d4cc6a;
-  border-bottom-color: #d4cc6a;
+  border-top-color: #6cd46a;
+  border-bottom-color: #6ad491;
   border-radius: 50%;
   -webkit-animation: loader 3s linear infinite;
   -moz-animation: loader 2s linear infinite;
@@ -104,8 +103,8 @@ body {
 
 #loading-content:after {
   border: 3px solid transparent;
-  border-top-color: #84417c;
-  border-bottom-color: #84417c;
+  border-top-color: #365392;
+  border-bottom-color: #534184;
   border-radius: 50%;
   -webkit-animation: loader 1.5s linear infinite;
   animation: loader 1.5s linear infinite;
