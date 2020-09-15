@@ -11,7 +11,7 @@
     <div class="p-md-5">
       <div class="container">
         <div
-          class="row col-md-11 mb-4"
+          class="row col-md-12 mb-4"
           v-for="experiencie in experiencies"
           :key="experiencie.id"
         >
@@ -27,8 +27,7 @@
                   </div>
                 </div>
                 <p class="card-text pb-2 ml-3">
-                  <small class="text-muted" v-html="experiencie.url">
-                  </small>
+                  <small class="text-muted" v-html="experiencie.url"> </small>
                 </p>
               </div>
               <div class="col-lg-3">
@@ -39,8 +38,8 @@
                   <li class="text-muted">{{ tec }}</li>
                 </ul>
               </div>
-              <div class="float-sm-right pb-2 mt-3" >
-                <p class="more-link">{{ experiencie.date }}</p>
+              <div class="float-sm-right pb-2 mt-3">
+                <p class="more-link fechas">{{ experiencie.date }}</p>
               </div>
             </div>
           </div>
@@ -85,7 +84,7 @@ export default {
             "En la participación del Hackaton organizado por la UPCH, mi equipo contruimos una aplicacion para detectar con las camaras un presunto sospechoso para poder dar una alerta a las autoridades.",
           url:
             " <a class='link-on-bg' href='#' target='_blank'> Repositorio </a>",
-          tecn: ["Laravel 5.8",],
+          tecn: ["Laravel 5.8"],
           date: "2019 - Dec",
         },
         {
@@ -103,8 +102,9 @@ export default {
           proyecto: "Pagina de Aseguradora",
           desc:
             "Se desarrollo una aplicacion donde se presenta informacion acerca de los seguros.",
-          url: " <a class='link-on-bg' href='https://github.com/escandihub/Aseguradora' target='_blank'> Repositorio FronEnd </a> </br>  <a class='link-on-bg' href='https://github.com/escandihub/deployHDI' target='_blank'> Repositorio Backend </a>",
-          tecn: ["Angular 5", "Node.js" ],
+          url:
+            " <a class='link-on-bg' href='https://github.com/escandihub/Aseguradora' target='_blank'> Repositorio FronEnd </a> </br>  <a class='link-on-bg' href='https://github.com/escandihub/deployHDI' target='_blank'> Repositorio Backend </a>",
+          tecn: ["Angular 5", "Node.js"],
           date: "2018 - Jun",
         },
         {
@@ -112,7 +112,8 @@ export default {
           proyecto: "CLI Python",
           desc:
             "En la materias de LENG.Y AUTOM. se desarrollo una aplicacion para facilitar el desarrollo con el micro-Framework Flask, pudiendo crear el proyecto base en el patron MVC.",
-          url: " <a class='link-on-bg' href='https://github.com/DarkUnknowKnigth/thunder' target='_blank'> Repositorio </a>",
+          url:
+            " <a class='link-on-bg' href='https://github.com/DarkUnknowKnigth/thunder' target='_blank'> Repositorio </a>",
           tecn: ["Pyhon", "Html"],
           date: "2018 - Dec",
         },
@@ -126,16 +127,17 @@ export default {
           tecn: ["Laravel 5.8", "Passport"],
           date: "2018 - Dec",
         },
-        
       ],
     };
   },
-  methods:{},
+  methods: {},
 };
 </script>
 
 <style>
-
+.fechas {
+  margin-left: 0px;
+}
 .s19 {
   list-style: none;
 }
@@ -143,5 +145,11 @@ export default {
   content: "\f0a9";
   margin-right: 10px;
   font-family: FontAwesome;
+}
+
+@media screen and (max-width: 992px) {
+  .fechas {
+    margin-left: 15px;
+  }
 }
 </style>
