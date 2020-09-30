@@ -58,6 +58,16 @@ export default {
         "Mi filosofia principal en el desarrollo es encontrar la manera eficiente de solucionar un problema, disernir de los metodos que exiten para dar alternativas a un problema para poder elegir el que sea eficiente.",
       experiencies: [
         {
+          id: 8,
+          proyecto: "App-Ter",
+          desc:
+            "Aplicacion en desarrollo que sera universal Android, IOS, que administrara la produccion de ganaderos en entornos urbanos para conocer en cualquier momento lo que ha producido.",
+          url:
+            " <a class='link-on-bg' href='https://github.com/escandihub/app-ter.git' target='_blank'> Repositorio </a>",
+          tecn: ["Angular 10", "Ionic 5", "NgRx", "Capacitor"],
+          date: "2020 - Sep - 2 semanas",
+        },
+        {
           id: 7,
           proyecto: "Basic Push-Notification",
           desc:
@@ -69,9 +79,9 @@ export default {
         },
         {
           id: 4,
-          proyecto: "Sistema Web Integral",
+          proyecto: "Reingenieria al Sistema para la Formacion y Actualización Profecional Docente",
           desc:
-            "En mi residencia profecional desarrolle un Sistema web moderno, para mejoras el proceso que se llevaba acabo de una manera tradicional, facilitando la busqueda de la información y la organizacion.",
+            "En mi residencia profecional desarrolle un Sistema web moderno, que aguiliza el proceso que se llevaba se acabo de una manera tradicional, facilitando la busqueda de la información y la organizacion.",
           url:
             " <a class='link-on-bg' href='https://fodap.ittg.edu.mx/' target='_blank'> FODAP </a>",
           tecn: ["Laravel", "Vue.JS", "Mysql", "Vuetify"],
