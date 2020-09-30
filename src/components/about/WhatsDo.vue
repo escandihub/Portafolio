@@ -46,17 +46,17 @@ export default {
         },
         {
           nombre: "Node.js",
-          desc: "Desarrollo de aplicaciones par diverción",
+          desc: "Desarrollo de unas API por conocer el entorno de trabajo, he hecho autentificacion, manejo de usuarios y manejo de MongoDB",
           icon: ["node-js2.svg"]
 				},
 				{
           nombre: "Html &CSS ",
-          desc: "Stack que domino para la contruccion de los cliente a desarrollar",
+          desc: "Stack que domino en un 100% de html y uno esensial de CSS ",
           icon: ["html5.svg", "css3.svg"]
 				},
         {
           nombre: "python",
-          desc: "He desarrollo principalmente bot's para automatizar con la herramienta de selenium",
+          desc: "He desarrollo principalmente bot's para automatizar con la herramienta de selenium y manejo de archivos",
           icon: ["python.svg"]
         },
 				
