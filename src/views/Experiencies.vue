@@ -79,9 +79,9 @@ export default {
         },
         {
           id: 4,
-          proyecto: "Reingenieria al Sistema para la Formacion y Actualización Profecional Docente",
+          proyecto: "Reingenieria al Sistema para la Formacion y Actualización Profesional Docente",
           desc:
-            "En mi residencia profecional desarrolle un Sistema web moderno, que aguiliza el proceso que se llevaba se acabo de una manera tradicional, facilitando la busqueda de la información y la organizacion.",
+            "En mi residencia profesional desarrolle un Sistema web moderno, que aguiliza el proceso que se llevaba se acabo de una manera tradicional, facilitando la busqueda de la información y la organizacion.",
           url:
             " <a class='link-on-bg' href='https://fodap.ittg.edu.mx/' target='_blank'> FODAP </a>",
           tecn: ["Laravel", "Vue.JS", "Mysql", "Vuetify"],

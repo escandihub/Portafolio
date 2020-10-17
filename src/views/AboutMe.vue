@@ -41,7 +41,7 @@ export default {
         me: "Alejandro Escandón",
         puesto: "Junior Developer",
         bio:
-          "Soy un ingeniero en sistemas computacionales apacionado por el desarrollo de software, internet de las cosas, disfruto contruyendo todo, desde pequeños sitios hasta aplicaciones web interactivas.",
+          "Soy un ingeniero en sistemas computacionales apasionado por el desarrollo de software, internet de las cosas, disfruto contruyendo todo, desde pequeños sitios hasta aplicaciones web interactivas.",
       },
     };
   },
