@@ -1,6 +1,16 @@
 export function exp(){
   let array = [
     {
+      id: 10,
+      proyecto: "telesis",
+      desc:
+        "Sistema para la gestion de un escuela primaria, que buscaba tomar de manera eficiente la información de sus alumnos y poder administrarla",
+      url:
+        " <a class='link-on-bg' href='https://github.com/WebDevTuxtla/telesis' target='_blank'> Repositorio </a>",
+      tecn: ["Livewiew", "Laravel 8",],
+      date: "2020 - Nov ",
+    },
+    {
       id: 9,
       proyecto: "Sistema SARE",
       desc:
@@ -8,7 +18,7 @@ export function exp(){
       url:
         " <a class='link-on-bg' href='https://github.com/escandihub/SARE-frontend' target='_blank'> Repositorio </a>",
       tecn: ["Vue 2.X", "Laravel 8", "Vuex", "vue-route"],
-      date: "2020 - Nov - 3 semanas",
+      date: "2020 - Oct - Dic",
     },
     {
       id: 8,
