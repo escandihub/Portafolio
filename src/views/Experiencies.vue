@@ -15,7 +15,7 @@
           v-for="experiencie in experiencies"
           :key="experiencie.id"
         >
-          <div class="card project-card">
+          <div class="card project-card w-100 p-3">
             <div class="row no-gutters">
               <div class="col-lg-7">
                 <div class="card-body">

@@ -1,6 +1,36 @@
 export function exp(){
   let array = [
     {
+      id: 13,
+      proyecto: "ABIB",
+      desc:
+        "Se creo ERP y CRM, para la administración de los procesos de la empresa, como tambien procesos de automatizaciones para regular la infomación en la base de datos, se mantuvo dando actulizaciones para optimizar los procesos.",
+      url:
+        " <a class='link-on-bg' href='https://github.com/escandihub/ERP-ABIB' target='_blank'> Repositorio </a>",
+      tecn: ["Livewiew", "Laravel 8", "Angular", "API", "SOAP","Linux"],
+      date: "2021 Agosto - 2024 Abril ",
+    },
+    {
+      id: 12,
+      proyecto: "ABIB app API",
+      desc:
+        "Se creo una API que es encargado de ingresar solicitudes de caracter empresarial, la cual era envia por medio de un tunel de VPN",
+      url:
+        " <a class='link-on-bg' href='https://github.com/escandihub/ERP-ABIB' target='_blank'> Repositorio </a>",
+      tecn: ["Node", "nestjs", "SOAP", "API"],
+      date: "--",
+    },
+    {
+      id: 11,
+      proyecto: "Consultora",
+      desc:
+        "Se una aplicación donde se visualiza las activiades que hace un institución, se pueden ver videos",
+      url:
+        " <a class='link-on-bg' href='https://play.google.com/store/apps/details?id=io.app.iepc' target='_blank'> Link App </a>",
+      tecn: ["Livewiew", "Ionic", "Angular", "API"],
+      date: "2022 Feb - 2022 Abril ",
+    },
+    {
       id: 10,
       proyecto: "telesis",
       desc:
@@ -14,22 +44,22 @@ export function exp(){
       id: 9,
       proyecto: "Sistema SARE",
       desc:
-        "Sistema para la administración de de capturas de empresas y las licencias que se emiten con 80% para finalizar, es para una Institucion publica de Tuxtla Gutierrez, Chiapas, Mexico.",
+        "Sistema para la administración de de capturas de empresas y las licencias que se emiten, es para una Institucion publica de Tuxtla Gutierrez, Chiapas, Mexico.",
       url:
         " <a class='link-on-bg' href='https://github.com/escandihub/SARE-frontend' target='_blank'> Repositorio </a>",
       tecn: ["Vue 2.X", "Laravel 8", "Vuex", "vue-route"],
       date: "2020 - Oct - Dic",
     },
-    {
-      id: 8,
-      proyecto: "App-Ter",
-      desc:
-        "Aplicacion en desarrollo [pausado] que sera universal Android, IOS, que administrara la produccion de ganaderos en entornos urbanos para conocer en cualquier momento lo que ha producido.",
-      url:
-        " <a class='link-on-bg' href='https://github.com/escandihub/app-ter.git' target='_blank'> Repositorio </a>",
-      tecn: ["Angular 10", "Ionic 5", "NgRx", "Capacitor"],
-      date: "2020 - Sep - 2 semanas",
-    },
+    // {
+    //   id: 8,
+    //   proyecto: "App-Ter",
+    //   desc:
+    //     "Aplicacion en desarrollo [pausado] que sera universal Android, IOS, que administrara la produccion de ganaderos en entornos urbanos para conocer en cualquier momento lo que ha producido.",
+    //   url:
+    //     " <a class='link-on-bg' href='https://github.com/escandihub/app-ter.git' target='_blank'> Repositorio </a>",
+    //   tecn: ["Angular 10", "Ionic 5", "NgRx", "Capacitor"],
+    //   date: "2020 - Sep - 2 semanas",
+    // },
     {
       id: 7,
       proyecto: "Basic Push-Notification",
