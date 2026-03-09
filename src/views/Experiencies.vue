@@ -29,14 +29,12 @@
                 <p class="card-text pb-2 ml-3">
                   <small class="text-muted" v-html="experiencie.url"> </small>
                 </p>
+                <h6> Tecnologias </h6>
+              <div class="row">
+                  <div v-for="tec in experiencie.tecn" :key="tec" class="col">
+                  <small> {{ tec }} </small>
+                  </div>
               </div>
-              <div class="col-lg-3">
-                <div class="card-text mt-2">
-                  <p class="text-muted text-center">Tecnologías</p>
-                </div>
-                <ul class="s19" v-for="tec in experiencie.tecn" :key="tec">
-                  <li class="text-muted">{{ tec }}</li>
-                </ul>
               </div>
               <div class="float-sm-right pb-2 mt-3">
                 <p class="more-link fechas">{{ experiencie.date }}</p>

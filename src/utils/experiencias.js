@@ -1,5 +1,17 @@
 export function exp(){
   let array = [
+     {
+      id: 14,
+      proyecto: "APP ABORDO",
+      desc:
+        "Se creo aplicacion con IONIC para la gestion de abordaje al autobus, este desarrollo fue realizado para conocer en las terminales intermedias si se lleva acabo el abordaje de pasajero, el reto de esto fue en la parte del lado de la base de datos, ya que el sistema legacy que se tenia y un no tan eficiente diseño de base de datos hizo que se tuviera que emplear tecnicas avanzadas para que el tiempo de carga no demorara tanto.",
+      url:
+        " <a class='link-on-bg' href='https://github.com/escandihub/ERP-ABIB' target='_blank'> Repositorio </a>",
+      tecn: ["Livewire", "Laravel 8", "Angular", "API", "SOAP","Linux"],
+      date: "2024 Julio - 2024 Octubre ",
+      isCarrusel: true,
+      images: []
+    },
     {
       id: 13,
       proyecto: "ABIB",
